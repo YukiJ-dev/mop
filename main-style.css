@@ -1,0 +1,42 @@
+html,
+body,
+#viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+}
+
+#map-styles {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+#map-styles > label {
+  font-weight: bold;
+}
+
+#map-styles > select {
+  font-size: 14px;
+}
+
+#set-point {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+#set-point > span {
+  font-weight: bold;
+}
+
+#set-point > .img-btn {
+  width: 65px; 
+  height: 65px;
+}
+
+#set-point > .img-btn:focus {
+  background-color: #00bbf0;
+}
+
